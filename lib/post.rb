@@ -5,7 +5,7 @@ class Post
   attr_accessor :title
   attr_reader :author
   
-  def author=(author)
-    Author.new
-  end 
+  # def author=(author)
+  #   Author.new
+  # end 
 end 
