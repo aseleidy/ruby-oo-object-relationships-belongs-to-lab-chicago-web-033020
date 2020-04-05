@@ -2,10 +2,6 @@ require 'pry'
 require_relative 'author.rb'
 
 class Post 
-  attr_accessor :title
-  attr_reader :author
+  attr_accessor :title, :author
   
-  # def author=(author)
-  #   Author.new
-  # end 
 end 
