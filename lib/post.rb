@@ -7,6 +7,5 @@ class Post
   
   def author=(author)
     Author.new
-    binding.pry 
   end 
 end 
